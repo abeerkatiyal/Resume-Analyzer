@@ -1,0 +1,26 @@
+Installing MongoDB
+
+1. Download and install MongoDB for your environmnet from : https://www.mongodb.org/downloads#production
+2. Open command prompt and navigate to mongo installation folder
+3. Run the mongodb daemon with the following command 
+	mongod --dbpath [PATH]
+		e.g. : mongod --dbpath c:\data\
+4. mongo service has been started.
+
+Installing python:
+
+1. Download python for your environment from : https://www.python.org/downloads/
+2. During installation select advanced options and choose instalation of pip modules and option to setup the environment variables
+3. Open command prompt and type python to see if environment variables have been set up correctly, if not repair installation with above options and try again
+4. Open command prompt and run: 
+	pip install bottle
+	pip install pymongo
+
+
+Running the Program
+
+1. Copy the contents of the folder ADM to any local drive in your system (we'll assume C:\ADM for convenience)
+2. Open command prompt and navigate to C:\ADM
+3. Run:
+	python Resume_parser.py
+4. A new browser window will be started with the application content.
